@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-image: url(https://dmrqkbkq8el9i.cloudfront.net/Pictures/2000x2000fit/3/1/7/125317_pizza.jpg);
+            background-size: cover;
+        }
+        .head {
+            margin: 0;
+            height: 120px;
+            background-color: rgba(251, 253, 255, 0.5);
+            border-bottom-left-radius: 5%;
+            border-bottom-right-radius: 5%;
+            position: static;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: #fff;
+            top: 30px;
+            left: 270px;
+            color: yellow;
+            position: absolute;
+        }
+
+        #shadow {
+            color: orangered;
+            top: 32px;
+            left: 272px;
+        }
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            height: 350px;
+            width: 600px;
+            background-color: rgb(251, 253, 255, 0.5);
+            border: none;
+            border-radius: 20px;
+            margin: 25px;
+        }
+
+        .vis:hover {
+            cursor: pointer;
+            height: auto;
+            width: 350px;
+        }
+
+        img {
+            position: absolute;
+            padding: 15px;
+            border-radius: 30px;
+        }
+
+        .Para {
+            position: relative;
+            padding: 5px;
+            top: 250px;
+            left: 30px;
+            font-size: 2.5rem;
+            display: inline;
+            height: 50px;
+            width: 80px;
+            background-color: black;
+            color: #fff;
+            border: 2px solid black;
+            border-radius: 20%;
+        }
+
+        .inner{
+            height: 225px;
+            width: 250px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            top: 0px;
+            left: 340px;
+            font-size:  1.3rem;
+            background-color:rgba(0, 6, 11, 0.7);
+            color: khaki;
+        }
+
+        .one{
+            height: 290px;
+            font-size: 1rem;
+        }
+
+        h6{
+            font-size: 1.25rem;
+        }
+
+        button{
+            font-size: 25px;
+            border-radius: 18px;
+            position: absolute;
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:active{
+            color:greenyellow;
+        }
+        a:visited{
+            color:orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Design web page for online pizza order for
+1 st HTML page: homepage.html
+◦ Heading: pizza Name
+◦ Title: pizza Name + pizza type
+◦ Heading 2: forms for selecting pizza
+◦ List of Franchise
+Upon clicking on particular pizza , 
+
+Second page will be
+Second page: pizzatype.html
+◦ Title: sub pizza name
+◦ Paragraph: specify each pizza Ingredients
+◦ Paragraph: size of pizza +amount
+<body background="bgimage.jpg" -->
+    <header>
+        <div class="head">
+            <h1>Get Your own Cheesy Slice of life Today....Right away in a matter of few taps</h1>
+            <h1 id="shadow">Get Your own Cheesy Slice of life Today....Right away in a matter of few taps</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="vert1">
+                <div class="box">
+                    <img class="vis"
+                        src="https://countertoppizzaoven.com/wp-content/uploads/2020/08/Screenshot-2020-09-29-at-11.04.09-AM.png"
+                        width="300px">
+                    <p class="Para">Detroit Pizza</p>
+                    <div class="inner">
+                        <p>
+                            <h6>#Here is 3 reasons Why?
+                            You should give this a try :</h6>
+                            <ol>
+                            <li>Square-shaped airy crust with crispy edges</li>
+                            <li>Crust with a distinct caramelized texture</li>
+                            <li>"Upside-down" layering of cheese and sauce</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="vis"
+                        src="https://amerikanisch-kochen.de/Wordpress/wp-content/uploads/2017/09/chicago-pizza.jpg"
+                        width="300px">
+                    <p class="Para">Semizza</p>
+
+                    <div class="inner">
+                        <p>
+                            <h6>#Here is 3 reasons Why?
+                            You should give this a try :</h6>
+                            <ol>
+                            <li>Delightful fusion of garlic bread and pizza</li>
+                            <li>Cheesy, garlicky goodness</li>
+                            <li>Pairs well with marinara or Alfredo </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vert2">
+
+                <div class="box">
+                    <img class="vis"
+                        src="https://product-assets.faasos.io/production/product/image_1567601978529_meatball%20n%20onion%20half%20pizza%20(1).jpg"
+                        width="300px">
+                    <p class="Para">Chicago Pizza</p>
+                    <div class="inner">
+                        <p>
+                            <h6>#Here is 3 reasons Why?
+                            You should give this a try :</h6>
+                            <ol>
+                            <li>Deep-dish pizza with a thick, buttery crust </li>
+                            <li>Hearty and filling nature</li>
+                            <li>Layered with cheese, toppings, and a chunky tomato sauce.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="vis"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pizza_Quattro_Stagioni.jpg/330px-Pizza_Quattro_Stagioni.jpg"
+                        width="300px">
+                    <p class="Para">Margherita Pizza </p>
+                    <div class="inner one">
+                        <p>
+                            <h6>#Here is 3 reasons Why?
+                            You should give this a try :</h6>
+                            <ol>
+                            <li>Fresh mozzarella melted beautifully, creating a creamy texture that perfectly complemented the vibrant tomato sauce. </li>
+                            <li>Crust : Delightful crunch on the outside and a soft, airy interior </li>
+                            <li>Fun-fact: Named after Queen Margherita of Italy, this pizza represents the colors of the Italian flag with its red tomatoes, white mozzarella, and green basil.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button><a href="order.html">Place your Order</a></button>
+    </main>
+
+</body>
+
+</html>

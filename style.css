@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 815px;
+    width: 1000px;
+    background-color: #283618;
+    color: #606c38;
+    font-size: 2rem;
+    border: 1px solid #dda15e;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    top: 200px;
+}
+
+.heading{
+    margin: 20px;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.btn{
+    height: 50px;
+    width: 220px;
+    background-color: #dda15e;
+    color: #fefae0;
+    border: 1px solid ;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+table{
+    position: relative;
+    top: 70px;
+    left: 140px;
+}
+
+.one{
+    width: 330px;
+}

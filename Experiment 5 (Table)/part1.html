@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML tags</title>
+    <style>
+        body{
+            background-color: indigo;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table,
+        td,
+        th,
+        tr {
+            border: 1px solid yellow;
+            border-collapse: collapse;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        table {
+            height: 80vh;
+            width: 80vw;
+            background-image: url(https://i.pinimg.com/originals/b2/ab/e7/b2abe7b0e3b80cd1208679417ae4c4e0.jpg);
+            background-size: auto;
+        }
+
+        table > caption {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Write a Program to create Web page for displaying a
+table for Arcane fest Table
+Heading :- 1.Student Name
+2.Student Id
+3. No. of events ,he/she registered
+4.Name of the events
+5.Place of the event -->
+    <div>
+
+        <table>
+            <caption>ARCANES FEST</caption>
+            <tr>
+                <th>Student Name</th>
+                <td colspan="3">Senya Mehrotra</td>
+            </tr>
+            <tr>
+                <th>Student Id</th>
+                <td colspan="3">1024005</td>
+            </tr>
+            <tr>
+                <th>NO. of Events</th>
+                <td colspan="3">3</td>
+            </tr>
+            <tr>
+                <th>Name of Events</th>
+                <td>Hackathon</td>
+                <td>Dancing</td>
+                <td>Chess</td>
+            </tr>
+            <tr>
+                <th>Venue</th>
+                <td colspan="3">UMIT, SNDT <br> Campus-JUHU</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
